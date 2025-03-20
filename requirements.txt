@@ -5,6 +5,7 @@ Flask-Login
 Flask-Mail
 Flask-Migrate
 Flask-WTF
+flask-bcrypt
 waitress
 python-dotenv
 Werkzeug
