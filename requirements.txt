@@ -1,0 +1,14 @@
+Flask
+gunicorn
+Flask-SQLAlchemy
+Flask-Login
+Flask-Mail
+Flask-Migrate
+Flask-WTF
+waitress
+python-dotenv
+Werkzeug
+bcrypt
+requests
+psycopg2-binary  
+mysql-connector-python 
