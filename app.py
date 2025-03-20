@@ -15,7 +15,6 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.config.from_object(Config)
-db = SQLAlchemy(app)
 
 db.init_app(app)
 mail = Mail(app)
