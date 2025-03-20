@@ -1,0 +1,122 @@
+/* 🔹 全域樣式 */
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #f3f5f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔹 容器 */
+.container {
+    margin-top: -14px !important;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* 🔹 導覽列樣式 */
+.navbar {
+    background-color: #2c3e50 !important; 
+    height: 60px; 
+    padding: 5px 15px; 
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 18px !important;  
+    font-weight: bold;
+    color: white !important;
+    padding: 0;  
+}
+.navbar .nav-link {
+    color: white !important;
+    font-size: 14px !important;  
+    padding: 5px 10px; 
+    line-height: 1.2; 
+    transition: 0.3s;
+}
+.navbar .nav-link:hover {
+    color: #f39c12 !important;
+    transform: translateY(-2px);
+}
+
+
+/* 🔹 按鈕 */
+.btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.btn-success {
+    background: #27ae60;
+    border-color: #27ae60;
+}
+.btn-success:hover {
+    background: #219150;
+    transform: scale(1.05);
+}
+.btn-danger {
+    background: #e74c3c;
+    border-color: #e74c3c;
+}
+.btn-danger:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+/* 🔹 標題 */
+h1, h2, h3 {
+    color: #2c3e50;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 🔹 表單 */
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 表格 */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.table th {
+    background: #34495e;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+.table td {
+    background: white;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* 🔹 卡片樣式（交大開放日類似的設計） */
+.card {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    background: white;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* 🔹 footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 50px;
+}
